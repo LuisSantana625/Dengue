@@ -1,0 +1,339 @@
+/* Importando fonte moderna (Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #2d3748;
+    line-height: 1.7;
+}
+
+/* HEADER FIXO COM EFEITO BLUR (MODERNO) */
+header {
+    background-color: rgba(27, 77, 62, 0.95);
+    backdrop-filter: blur(10px);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 8%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4ade80;
+}
+
+/* HERO SECTION COM DEGRADÊ MODERNO */
+.hero {
+    background: linear-gradient(135deg, rgba(27, 77, 62, 0.9), rgba(15, 43, 35, 0.95)), url('https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.hero p {
+    font-size: 1.15rem;
+    color: #cbd5e1;
+    margin-bottom: 35px;
+    font-weight: 300;
+}
+
+.btn-cta {
+    background-color: #f97316;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 10px 20px rgba(249, 115, 22, 0.3);
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-cta:hover {
+    background-color: #ea580c;
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px rgba(249, 115, 22, 0.4);
+}
+
+/* SEÇÃO SOBRE */
+.sobre {
+    padding: 90px 20px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre h2 {
+    color: #1b4d3e;
+    margin-bottom: 25px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.sobre article {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    border: 1px solid #edf2f7;
+}
+
+.sobre article h3 {
+    margin-bottom: 15px;
+    color: #2d3748;
+    font-size: 1.3rem;
+}
+
+.sobre article p {
+    color: #4a5568;
+}
+
+/* SERVIÇOS / CARDS COM EFEITO HOVER FLUTUANTE */
+.servicos {
+    padding: 90px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.servicos h2 {
+    color: #1b4d3e;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #edf2f7;
+    border-radius: 16px;
+    padding: 35px 25px;
+    width: 330px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #1b4d3e;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+}
+
+.card p {
+    color: #4a5568;
+    font-size: 0.95rem;
+}
+
+.card-footer-text {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #718096;
+    border-top: 1px solid #f7fafc;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.destaque-alerta {
+    border-top: 5px solid #f59e0b;
+}
+
+.urgente {
+    border-top: 5px solid #ef4444;
+}
+
+/* GALERIA DE IMAGENS COM ZOOM SUAVE */
+.galeria {
+    padding: 90px 20px;
+    text-align: center;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.galeria h2 {
+    color: #1b4d3e;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.galeria-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.galeria figure {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+    width: 350px;
+    border: 1px solid #edf2f7;
+    transition: transform 0.3s ease;
+}
+
+.galeria figure:hover {
+    transform: translateY(-5px);
+}
+
+.galeria img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.galeria figure:hover img {
+    transform: scale(1.05);
+}
+
+.galeria figcaption {
+    padding: 20px;
+    font-size: 0.95rem;
+    color: #2d3748;
+    font-weight: 500;
+    background: white;
+}
+
+/* FOOTER MODERNO */
+footer {
+    background-color: #0f2b23;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+
+.footer-content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.footer-content h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.footer-content p {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: #cbd5e1;
+}
+
+.footer-content a {
+    color: #4ade80;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.acessibilidade-nota {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-top: 15px;
+}
+
+.copyright {
+    margin-top: 25px;
+    font-size: 0.85rem;
+    color: #64748b;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+}
+
+/* RESPONSIVIDADE PARA CELULARES E TABLETS */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .cards-container, .galeria-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .galeria figure {
+        width: 100%;
+        max-width: 380px;
+    }
+}
