@@ -6,7 +6,7 @@ Landing page responsiva desenvolvida como projeto acadêmico com foco em saúde 
 
 ## 🔗 Links do Projeto
 * **Repositório do Projeto:** (https://github.com/LuisSantana625/Dengue)
-* **Site Publicado (GitHub Pages):** (Insira aqui o link do seu GitHub Pages após publicar)
+* **Site Publicado (GitHub Pages):** (https://luissantana625.github.io/Dengue/)
 
 ---
 
