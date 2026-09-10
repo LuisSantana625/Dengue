@@ -25,11 +25,13 @@ Landing page responsiva desenvolvida como projeto acadêmico com foco em saúde 
 
 ---
 
-## 🤖 Documentação do Uso de IA (Como a IA ajudou no projeto)
+## 🤖 Documentação do Uso de IA
 
-Durante o desenvolvimento deste projeto, a Inteligência Artificial foi utilizada como um **assistente técnico e parceiro de código**, auxiliando nas seguintes etapas:
+Durante o desenvolvimento deste projeto, a Inteligência Artificial foi utilizada como ferramenta de apoio e co-criação. Abaixo estão os principais prompts utilizados e como eles ajudaram no desenvolvimento:
 
-1. **Concepção e Escopo:** Definição do tema de saúde pública alinhado com o impacto social (cenário de aumento de casos e impactos climáticos como o El Niño).
-2. **Estruturação Semântica:** Orientação sobre o uso correto e restrito das tags do HTML5 (`article`, `section`, `figure`, `figcaption`) para atender às exigências de acessibilidade e semântica do curso.
-3. **Desenvolvimento e Refinamento do CSS3:** Criação da identidade visual moderna (utilizando paleta profissional, fontes do Google Fonts, efeitos de sombra e transições suaves com `hover`), garantindo a separação total entre HTML e CSS (sem uso de CSS inline ou tags `<style>`).
-4. **Padronização e Revisão:** Validação das regras impostas pelo desafio (ausência de JavaScript, responsividade via Media Queries e estruturação correta para apresentação acadêmica).
+* **Prompt 1:** *"Existe e pode criar um site onde as pessoas colocam seus sintomas da dengue e ira avaliar a possibilidade do diagnostico..."*
+  * **Como ajudou:** Definiu o escopo inicial do projeto, direcionando a abordagem para a área de saúde pública e focando nos sinais de alarme da dengue grave e no contexto do El Niño.
+* **Prompt 2:** *"Aqui estão as regras. (Enviando print com restrições de HTML semântico, sem JavaScript e sem CSS inline)"*
+  * **Como ajudou:** Alinhou o código às restrições técnicas da atividade, convertendo a lógica interativa em uma Landing Page estática com estruturação semântica rigorosa.
+* **Prompt 3:** *"O que teria como fazer para deixar ele mais moderno, dentro das regras."*
+  * **Como ajudou:** Auxiliou na refatoração do arquivo `style.css` para incorporar um design moderno (fontes do Google Fonts, efeitos de hover, flexbox e sombras suaves) mantendo a separação correta de arquivos.
